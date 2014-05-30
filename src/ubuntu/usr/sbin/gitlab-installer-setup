@@ -1,0 +1,14 @@
+#! /bin/bash
+
+#Download and install gitlab
+wget -O /tmp/gitlab.deb https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_6.9.2-omnibus-1_amd64.deb
+
+dpkg -i /tmp/gitlab.deb 
+
+# Poll user for website name, then sed into config files
+
+
+#Inform user to put certs in place and reconfigure gitlab
+echo "Please put your ssl certs into /etc/ssl and /etc/gitlab/ssl then run gitlab-ctl reconfigure"
+echo "Installation script finished"
+

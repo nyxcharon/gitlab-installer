@@ -7,6 +7,6 @@ Standards-Version: 3.9.4
 
 Package: gitlab-installer
 Architecture: all
-Depends: 
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: postfix 
+Description: Installs helper scripts to configure gitlab
+ Installs helper scripts to configure gitlab
