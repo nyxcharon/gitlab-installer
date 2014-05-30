@@ -1,0 +1,12 @@
+Source: gitlab-installer
+Section: admin
+Priority: optional
+Maintainer: Bobby Martin <bobby.martin@mail.wvu.edu>
+Build-Depends: cdbs, debhelper (>= 5.0.0)
+Standards-Version: 3.9.4
+
+Package: gitlab-installer
+Architecture: all
+Depends: 
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
